@@ -18,53 +18,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94c94e2b-7303-43c1-bce5-a612bd8de7b0" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/openvdap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/openvdap/host/openvdap_u.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/common/ocall_types.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/common/shared.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/dispatcher.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/message.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/openvdap_aes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/openvdap_ecdsa.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/openvdap_ecp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/sqlite3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/sqlite3ext.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/openvdap.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/sqlite3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/Enclave.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/dispatcher.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/encryptor.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/keys.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/ocall_interface.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_aes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_ecdh.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_ecdsa.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_ecp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/eth_ecdh.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/eth_ecdh.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/lntee.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/test_aes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/test_aes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/host/App.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/host/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/host/include/Global.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/host/include/Helper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/host/include/command.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/host/src/Global.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/host/src/Helper.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/host/src/command.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/host/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/host/src/ocalls.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/openvdap.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openvdap/openvdap.edl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/openvdap/host/openvdap_u.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/common/ocall_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/common/ocall_types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/common/shared.h" beforeDir="false" afterPath="$PROJECT_DIR$/common/shared.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/include/dispatcher.h" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/include/dispatcher.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/include/message.h" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/include/message.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/include/openvdap_aes.h" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/include/openvdap_aes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/include/openvdap_ecdsa.h" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/include/openvdap_ecdsa.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/include/openvdap_ecp.h" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/include/openvdap_ecp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/include/sqlite3.h" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/include/sqlite3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/include/sqlite3ext.h" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/include/sqlite3ext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/openvdap.conf" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/openvdap.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/sqlite3.c" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/sqlite3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/src/Enclave.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/src/Enclave.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/src/dispatcher.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/src/dispatcher.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/src/encryptor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/src/encryptor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/src/keys.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/src/keys.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/src/ocall_interface.c" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/src/ocall_interface.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_aes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/src/openvdap_aes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_ecdh.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/src/openvdap_ecdh.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_ecdsa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/src/openvdap_ecdsa.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_ecp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/src/openvdap_ecp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/test/eth_ecdh.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/test/eth_ecdh.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/test/eth_ecdh.h" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/test/eth_ecdh.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/test/lntee.conf" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/test/lntee.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/test/test_aes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/test/test_aes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/enclave/test/test_aes.h" beforeDir="false" afterPath="$PROJECT_DIR$/enclave/test/test_aes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/host/App.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/host/App.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/host/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/host/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/host/include/Global.h" beforeDir="false" afterPath="$PROJECT_DIR$/host/include/Global.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/host/include/Helper.h" beforeDir="false" afterPath="$PROJECT_DIR$/host/include/Helper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/host/include/command.h" beforeDir="false" afterPath="$PROJECT_DIR$/host/include/command.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/host/src/Global.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/Global.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/host/src/Helper.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/Helper.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/host/src/command.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/command.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/host/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/host/src/ocalls.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/ocalls.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/openvdap.conf" beforeDir="false" afterPath="$PROJECT_DIR$/openvdap.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openvdap/openvdap.edl" beforeDir="false" afterPath="$PROJECT_DIR$/openvdap.edl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +111,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/openvdap/common" />
     </key>
   </component>
@@ -161,8 +157,16 @@
       <option name="presentableId" value="Default" />
       <updated>1646625103819</updated>
       <workItem from="1646625105589" duration="14833000" />
-      <workItem from="1646668189987" duration="15890000" />
+      <workItem from="1646668189987" duration="16732000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1646710440925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646710440925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,12 +191,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/openvdap/enclave/sqlite3.c</url>
+          <url>file://$PROJECT_DIR$/enclave/sqlite3.c</url>
           <line>119968</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/openvdap/host/src/main.cpp</url>
+          <url>file://$PROJECT_DIR$/host/src/main.cpp</url>
           <line>93</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
