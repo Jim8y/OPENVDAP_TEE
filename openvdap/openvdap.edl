@@ -1,0 +1,135 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+enclave {
+        from "openenclave/edl/syscall.edl" import *;
+        from "openenclave/edl/sgx/platform.edl" import *;
+        from "platform.edl" import *;
+        include "./common/shared.h"
+        include "ocall_types.h"
+trusted {
+
+        public int ecall_openvdap_init_tee([in,string]const char * seed,
+                                            [user_check] const char* pubkey,
+                                            [user_check]const char* addr);
+
+        // open SQLite connection to dbname
+        public void ecall_openvdap_open_keynote();
+
+        // Execute command statement inside enclave
+        public void ecall_openvdap_execute_cmd([in, string] const char *cmd);
+
+        // close SQLite db connection
+        public void ecall_openvdap_close_keynote(void);
+
+
+        // Execute ADD command statement inside enclave
+        public void ecall_openvdap_execute_cmd_add([in, string] const char *msg,
+                                                    [in, string] const char *sig,
+                                                    [in, string] const char *owner,
+                                                    [user_check] const char * id);
+
+        // Execute UPDATE command statement inside enclave
+        public void ecall_openvdap_execute_cmd_update([in, string] const char *id,
+                                                      [in, string] const char *msg,
+                                                      [in, string] const char *sig);
+
+        // Execute command DELETE statement inside enclave
+        public void ecall_openvdap_execute_cmd_delete([in, string] const char *id,
+                                                      [in, string] const char *sig);
+
+        // Execute QUERY command statement inside enclave
+        public void ecall_openvdap_execute_cmd_query([in, string] const char *id,
+                                                     [in, string] const char *sig,
+                                                     [user_check] const char * res);
+
+        // Execute ADD command statement inside enclave
+        public void ecall_openvdap_execute_cmd_enc([in, string] const char *id,
+                                                   [in, string] const char *msg,
+                                                   [in, string] const char *sig,
+                                                   [user_check] const char * res);
+
+        // Execute UPDATE command statement inside enclave
+        public void ecall_openvdap_execute_cmd_dec([in, string] const char *id,
+                                                    [in, string] const char *sig,
+                                                    [user_check] const char * res);
+
+        // Execute command DELETE statement inside enclave
+        public void ecall_openvdap_execute_cmd_sign([in, string] const char *id,
+                                                    [in, string] const char *msg,
+                                                    [user_check] const char * res);
+
+        // Execute QUERY command statement inside enclave
+        public void ecall_openvdap_execute_cmd_verify([in, string] const char *id,
+                                                      [in, string] const char *sig,
+                                                      [user_check] const char * res);
+
+        public int initialize_encryptor( bool encrypt,
+                                         [in, count=password_len] const char* password,
+                                         size_t password_len,
+                                         [in, out] encryption_header_t *header);
+
+        public int encrypt_block( bool encrypt,
+                                  [in, count=size] unsigned char* input_buf,
+                                  [out, count=size] unsigned char* output_buf,
+                                  size_t size);
+
+        public void close_encryptor();
+
+    };
+
+    untrusted {
+        void ocall_openvdap_println_string([in, string] const char *str);
+        void ocall_openvdap_print_string([in, string] const char *str);
+        void ocall_openvdap_print_error([in, string] const char *str);
+
+        int ocall_openvdap_lstat([in, string] const char *path,
+                                 [in, out, size=size] struct oe_stat_t *buf,
+                                 size_t size) propagate_errno;
+
+        int ocall_openvdap_stat([in, string] const char *path,
+                                [in, out, size=size] struct oe_stat_t *buf,
+                                size_t size);
+
+        int ocall_openvdap_fstat(int fd,
+                                 [in, out, size=size] struct oe_stat_t* buf,
+                                 size_t size);
+
+        int ocall_openvdap_ftruncate(int fd, oe_off_t length);
+
+        char* ocall_openvdap_getcwd([out, size=size] char *buf,
+                                    size_t size) propagate_errno;
+
+        int ocall_openvdap_getpid(void);
+
+        int ocall_openvdap_getuid(void);
+
+        char* ocall_openvdap_getenv([in, string] const char *name);
+
+        int ocall_openvdap_open64([in, string] const char *filename,
+                                  int flags,
+                                  oe_mode_t mode);
+
+        int ocall_openvdap_close(int fd);
+
+        oe_off_t ocall_openvdap_lseek64(int fd,
+                                        oe_off_t offset,
+                                        int whence) propagate_errno;
+        int ocall_openvdap_read(int fd,
+                                [out, size=count] void *buf,
+                                size_t count) propagate_errno;
+
+        int ocall_openvdap_write(int fd,
+                                 [in, size=count] const void *buf,
+                                 size_t count) propagate_errno;
+
+        int ocall_openvdap_fsync(int fd);
+
+        int ocall_openvdap_fcntl(int fd,
+                                 int cmd,
+                                 [in, size=size] void* arg,
+                                 size_t size) propagate_errno;
+
+        int ocall_openvdap_unlink([in, string] const char *pathname);
+    };
+};

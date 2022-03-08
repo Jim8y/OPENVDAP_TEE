@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="OpenVDAP" targetName="openvdap_enclave" />
+      <config projectName="OpenVDAP" targetName="openvdap" />
+      <config projectName="OpenVDAP" targetName="sign" />
+      <config projectName="OpenVDAP" targetName="openvdap_host" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94c94e2b-7303-43c1-bce5-a612bd8de7b0" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/openvdap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/openvdap/host/openvdap_u.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/common/ocall_types.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/common/shared.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/dispatcher.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/message.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/openvdap_aes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/openvdap_ecdsa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/openvdap_ecp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/sqlite3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/include/sqlite3ext.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/openvdap.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/sqlite3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/Enclave.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/dispatcher.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/encryptor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/keys.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/ocall_interface.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_aes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_ecdh.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_ecdsa.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/src/openvdap_ecp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/eth_ecdh.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/eth_ecdh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/lntee.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/test_aes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/enclave/test/test_aes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/host/App.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/host/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/host/include/Global.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/host/include/Helper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/host/include/command.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/host/src/Global.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/host/src/Helper.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/host/src/command.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/host/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/host/src/ocalls.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/openvdap.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openvdap/openvdap.edl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.3" />
+  </component>
+  <component name="ProjectId" id="262cQ1mlwZ3KjLxcS9F7lodTrdt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/openvdap/common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.openvdap">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="openvdap" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/cmake-build-debug/openvdap/enclave/openvdap_enclave.signed --simulate" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenVDAP" TARGET_NAME="openvdap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenVDAP" RUN_TARGET_NAME="openvdap_host">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="openvdap_enclave" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenVDAP" TARGET_NAME="openvdap_enclave" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenVDAP" RUN_TARGET_NAME="openvdap_enclave">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="openvdap_host" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenVDAP" TARGET_NAME="openvdap_host" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OpenVDAP" RUN_TARGET_NAME="openvdap_host">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sign" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenVDAP" TARGET_NAME="sign" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.openvdap" />
+      <item itemvalue="CMake Application.sign" />
+      <item itemvalue="CMake Application.openvdap_enclave" />
+      <item itemvalue="CMake Application.openvdap_host" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94c94e2b-7303-43c1-bce5-a612bd8de7b0" name="Changes" comment="" />
+      <created>1646625103819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646625103819</updated>
+      <workItem from="1646625105589" duration="14833000" />
+      <workItem from="1646668189987" duration="15890000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/openvdap/enclave/sqlite3.c</url>
+          <line>119968</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/openvdap/host/src/main.cpp</url>
+          <line>93</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
